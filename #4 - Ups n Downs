@@ -1,0 +1,68 @@
+
+  <div class="container">
+    <div class="circle1"></div>
+    <div class="circle2"></div>
+    <div class="circle3"></div>
+    
+ </div>
+
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #62306D;
+  }
+  
+  .container {
+    position: relative;
+    width: 75%;
+    height: 200px;
+    margin: 50px auto;
+  }
+  
+  .circle1 {
+    background: #F7EC7D;
+    height: 100px;
+    width: 100px;
+    border-bottom-right-radius: 70px;
+    border-bottom-left-radius: 70px;
+    position: absolute;
+    bottom: 0;
+  }
+  
+    .circle2 {
+    background: #F7EC7D;
+    height: 100px;
+    width: 100px;
+    border-bottom-right-radius: 70px;
+    border-bottom-left-radius: 70px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  
+  .circle3 {
+    background: #F7EC7D;
+    height: 100px;
+    width: 100px;
+    border-top-right-radius: 70px;
+    border-top-left-radius: 70px;
+    position: absolute;
+    top: 0;
+    right: 100px;
+  }
+  
+ 
+</style>
+
+<!-- OBJECTIVE -->
+<!-- Write HTML/CSS in this editor and replicate the given target image in the least code possible. What you write here, renders as it is -->
+
+<!-- SCORING -->
+<!-- The score is calculated based on the number of characters you use (this comment included :P) and how close you replicate the image. Read the FAQS (https://cssbattle.dev/faqs) for more info. -->
+
+<!-- IMPORTANT: remove the comments before submitting -->
