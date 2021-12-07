@@ -1,0 +1,144 @@
+
+  <div class="container">
+    <div class="stick1"></div>
+    <div class="stick2"></div>
+    <div class="stick3"></div>
+    <div class="stick4"></div>
+    
+    <div class="stick5"></div>
+    <div class="stick6"></div>
+    <div class="stick7"></div>
+    
+    <div class="base"></div> 
+    <div class="handle"></div> 
+    
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #6592CF;
+  }
+  
+  .container {
+    height: 400px;
+    position: relative;
+    width: 35%;
+    margin: auto;
+  }
+  
+  .stick1 {
+    background: #060F55;
+    height: 150px;
+    width: 20px;
+    position: absolute;
+    top: 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 20px;
+  }
+  
+    .stick2 {
+    background: #060F55;
+    height: 150px;
+    width: 20px;
+    position: absolute;
+    top: 50px;
+    left: 40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+    .stick3 {
+    background: #060F55;
+    height: 150px;
+    width: 20px;
+    position: absolute;
+    top: 50px;
+    left: 80px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+    .stick4 {
+    background: #060F55;
+    height: 150px;
+    width: 20px;
+    position: absolute;
+    top: 50px;
+    left: 120px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 20px;
+  }
+  
+    .stick5 {
+    background: #6592CF;
+    height: 110px;
+    width: 20px;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    z-index: 4;
+  }
+  
+    .stick6 {
+    background: #6592CF;
+    height: 110px;
+    width: 20px;
+    position: absolute;
+    top: 50px;
+    left: 60px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    z-index: 4;
+  }
+  
+   .stick7 {
+    background: #6592CF;
+    height: 110px;
+    width: 20px;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+     z-index: 4;
+  }
+  
+  .base {
+    position: absolute;
+    background: #060F55;
+    height: 100px;
+    width: 140px;
+    bottom: 150px;
+     border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+  }
+  
+  .handle {
+    background: #060F55;
+    height: 150px;
+    width: 20px;
+    position: absolute;
+    bottom: 50px;
+    left: 60px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+ 
+</style>
+
+<!-- OBJECTIVE -->
+<!-- Write HTML/CSS in this editor and replicate the given target image in the least code possible. What you write here, renders as it is -->
+
+<!-- SCORING -->
+<!-- The score is calculated based on the number of characters you use (this comment included :P) and how close you replicate the image. Read the FAQS (https://cssbattle.dev/faqs) for more info. -->
+
+<!-- IMPORTANT: remove the comments before submitting -->
